@@ -29,12 +29,14 @@ dependencies:
   opencv:
   image:
   image_cropper:
-  camera:
+  camera: ^0.10.0+4
   survey_kit:
   image_picker:
   tflite: ^1.1.2
   tflite_flutter: ^0.9.0
-  tflite_flutter_helper: ^0.3.1
+  tflite_flutter_helper:
+    path: ../tflite_flutter_helper-master
+  
 
 dev_dependencies:
   flutter_test:
